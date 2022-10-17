@@ -1,0 +1,16 @@
+Step1:
+Download Git (from https://git-scm.com/downloads)
+Let's take Windows as example, go to https://git-scm.com/download/win, and select "Other Git for Windows downloads Standalone Installer 64-bit Git for Windows Setup."
+Start the "Git-2.38.0-64-bit.exe", you can choose the folder which will hold Git's files, also the default editor used by Git.
+
+Step2:
+Use win+r to open "运行", then [cmd] --note: you don't need to enter [ or ]-- or [powershell] to open "命令提示符",
+Enter [git], tracking whether Git is ready.
+While using git for the first time, you need to setup your information:
+First, enter(please replace "your name" with your own's) [git config --global user.name "your name"]
+Then,enter(please replace "your email" with your own's) [git config --global user.email "your email"]
+If you want to setup the default editor used by Git, 
+enter(please replace "your editor" with your own's) [git config --global core.editor your editor]
+
+Step3:
+Enter [ssh-keygen -t rsa -C your email]
